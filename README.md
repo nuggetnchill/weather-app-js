@@ -9,6 +9,9 @@ The following technologies were used for the project:
 - Git & GitHub
 - Deploying app to Netlify
 
+### Resource
+API - https://openweathermap.org/api
+
 ![Screenshot](https://media.giphy.com/media/kBZk9tvCKZruNUnv2O/giphy.gif)
 
 Simply visit the link and type in your city to check the weather :)
