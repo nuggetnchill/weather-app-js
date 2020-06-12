@@ -6,15 +6,28 @@
 
 body {
     font-family: 'Roboto', monospace;
-    background-image: url(bg.jpeg);
-    background-position: center top;
+    background-image: url("https://i.imgur.com/wDK13IF.gif");
+    background-size: cover;
+
 }
 
 .app-wrap {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 50vh;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+}
+
+.app-wrap {
+    position: absolute center;
+    z-index: 2;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
 }
 
 header {
@@ -36,7 +49,7 @@ header input {
     outline: none;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
-    border-bottom: 3px solid #F9D297;
+    border-bottom: 3px solid rgba(5, 0, 0, 0.8);
     font-size: 20px;
     font-weight: 300;
     transition: 0.2s ease-out;
@@ -93,4 +106,10 @@ main {
     font-size: 24px;
     font-weight: 500;
     text-shadow: 0px 3px rgba(0, 0, 0, 0.3)
+}
+
+.temp {
+    animation: flash;
+    animation-duration: 2s;
+    animation-delay: 3s;
 }
